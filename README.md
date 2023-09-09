@@ -1,4 +1,4 @@
-# pysec23
+# PySec 2023
 
 ## Python installation
 
@@ -35,4 +35,10 @@ pysec23 on  main [!]
 pysec23 on  main [!] via 🐍 v3.10.12 (.venv) 
 ❯ python --version
 Python 3.10.12
+```
+
+### Install dependencies
+
+```sh
+pip3 install -r requirements.txt
 ```
