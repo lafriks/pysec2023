@@ -14,7 +14,15 @@ Python 2.7.18
 Python 3.10.12
 ```
 
-## Use virtualenv
+## virtualenv
+
+### Create
+
+```sh
+python3 -m venv .venv
+```
+
+### Usage
 
 ```sh
 source .venv/bin/activate
