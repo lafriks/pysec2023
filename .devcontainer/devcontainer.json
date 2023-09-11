@@ -7,7 +7,10 @@
 	"customizations": {
 		"vscode": {
 			"settings": { 
-				"python.defaultInterpreterPath": "/usr/local/bin/python"
+				"python.defaultInterpreterPath": "/usr/local/bin/python",
+				"pylint.interpreter": [
+					"/usr/local/bin/python"
+				]
 			},
 			"extensions": [
 				"ms-python.python",
