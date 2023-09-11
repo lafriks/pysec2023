@@ -2,7 +2,7 @@
 
 ## Python installation
 
-Use .devcontainers or install on host using following commands:
+Use [Dev Containers](https://containers.dev/) or install on host using following command:
 
 ```sh
 sudo apt install python3.9 python3.11
