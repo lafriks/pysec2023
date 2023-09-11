@@ -2,16 +2,19 @@
 
 ## Python installation
 
+Use .devcontainers or install on host using following commands:
+
 ```sh
-sudo apt install python2 python3
+sudo apt install python3.9 python3.11
 ```
 
-```console
-❯ python2 --version
-Python 2.7.18
+Test both python versions are available:
 
-❯ python3 --version
-Python 3.10.12
+```console
+vscode ➜ /workspaces/pysec23 (main) $ python3.9 --version
+Python 3.9.2
+vscode ➜ /workspaces/pysec23 (main) $ python3.11 --version
+Python 3.11.4
 ```
 
 ## virtualenv
@@ -19,7 +22,8 @@ Python 3.10.12
 ### Create
 
 ```sh
-python3 -m venv .venv
+python3.9 -m venv .venv3.9
+python3.11 -m venv .venv
 ```
 
 ### Usage
@@ -29,12 +33,14 @@ source .venv/bin/activate
 ```
 
 ```console
-pysec23 on  main [!] 
-❯ source .venv/bin/activate
+vscode ➜ /workspaces/pysec23 (main) $ source .venv3.9/bin/activate
+(.venv3.9) vscode ➜ /workspaces/pysec23 (main) $ python --version
+Python 3.9.2
+(.venv3.9) vscode ➜ /workspaces/pysec23 (main) $ deactivate
 
-pysec23 on  main [!] via 🐍 v3.10.12 (.venv) 
-❯ python --version
-Python 3.10.12
+vscode ➜ /workspaces/pysec23 (main) $ source .venv/bin/activate
+(.venv) vscode ➜ /workspaces/pysec23 (main) $ python --version
+Python 3.11.4
 ```
 
 ### Install dependencies

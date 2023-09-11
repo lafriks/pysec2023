@@ -1,4 +1,5 @@
 from googlesearch import search
+
 res = search(
     "index inurl:ftp -inurl:(http|https)",
     advanced=True
@@ -6,4 +7,4 @@ res = search(
 
 print('FTP sites:')
 for r in res:
-    print('%s' % r.url)
+    print(f"{r.url}")

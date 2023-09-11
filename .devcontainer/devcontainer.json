@@ -1,0 +1,19 @@
+{
+	"name": "Python",
+	"build": {
+        "dockerfile": "Dockerfile"
+    },
+
+	"customizations": {
+		"vscode": {
+			"settings": { 
+				"python.defaultInterpreterPath": "/usr/local/bin/python"
+			},
+			"extensions": [
+				"ms-python.python",
+                "ms-python.pylint",
+				"ms-python.vscode-pylance"
+			]
+		}
+	}
+}
