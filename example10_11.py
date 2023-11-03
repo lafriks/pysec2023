@@ -43,7 +43,7 @@ def kill(*_):
 # python example10_11.py testdata/container.log testdata/container2.log GET
 if __name__ == "__main__":
     if len(sys.argv) <= 1:
-        print("example10 <log-files> <search[,search]>")
+        print("example10_11 <log-files> <search[,search]>")
         sys.exit(1)
 
     signal.signal(signal.SIGINT, kill)
