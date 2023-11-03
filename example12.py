@@ -26,7 +26,7 @@ class ProgressBar:
         return False
 
 if __name__ == '__main__':
-    if len(sys.argv) <= 2:
+    if len(sys.argv) <= 3:
         print("example12 <url> <dest>")
         sys.exit(1)
 
